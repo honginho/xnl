@@ -1,0 +1,245 @@
+/* 2nd pages */
+.info {
+  height: 75%;
+  background: #333;
+}
+
+.footer {
+  height: 25%;
+  background: #333; }
+  .footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .footer > div > span {
+    width: 60%;
+    padding: 2% 1%;
+    border: 4px solid #ffc;
+    border-radius: 30px;
+    color: #ffc;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* setting *//* setting *//* setting */
+#settingbg {
+  width: 100%;
+  height: 75%;
+  padding: 5%;
+  color: #fff;
+}
+
+.setTitle {
+  width: 100%;
+  padding: 4px 6px;
+  border-bottom: 2px solid #fff;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.setcontent {
+  height: 80%;
+  padding: 4px 6px;
+  font-size: 1.7em;
+}
+
+.setCheckbox {
+  padding: 5px 0;
+}
+
+.setparentsarea {
+  padding: 5px 0; }
+  .setparentsarea .setParents {
+    padding-bottom: 10px; }
+  .setparentsarea .setParents:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+      top: 13px;
+    width: 50px;
+    height: 50px;
+    background: #fa0;
+    border-radius: 50%; }
+  .setparentsarea .setParents:nth-child(2):before {
+    background: #06d;
+}
+
+#version {
+  position: relative;
+    top: 60px;
+    left: 10px;
+  color: white;
+}
+
+/* healthManage *//* healthManage */
+.hmsection {
+  display: inline-block;
+  width: 100%;
+  height: 33%; }
+.hmsection:nth-child(2n-1) {
+  background: #282828; }
+  .hmsection > img {
+    display: inline-block;
+    height: 60%;
+    margin: 8% 0 8% 10%; }
+  .hmsection > div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 100%;
+    margin-right: 8%;
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+/* news *//* news *//* news */
+.newstitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background: #333;
+  color: #ffc; }
+.newstitle > p {
+  font-size: 2.5em;
+  text-align: center;
+  text-shadow: 0px 0px 20px #000;
+}
+
+.newsarea {
+  height: 65%;
+  background: #333;
+  overflow: auto; }
+.newsarea::-webkit-scrollbar {
+    display: none; }
+  .newsarea .newsbox {
+    width: 90%;
+    margin: 0 5% 5%;
+    padding: 5px;
+    background: #fcfcfc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #000; }
+    .newsarea .newsbox .subtitle {
+      margin: 2%; }
+    .newsarea .newsbox .subtitle > div {
+      font-size: 1.3em;
+      font-weight: 900; }
+    .newsarea .newsbox .contentimg > img {
+      display: block;
+      width: 96%;
+      height: 80px;
+      margin: 2%;
+      background: #666;
+      border-radius: 5px;
+      color: #fff;
+      object-fit: contain;
+}
+
+/* gps *//* gps *//* gps */
+.maparea > img {
+  display: block;
+  width: 100%;
+}
+
+.btnshowarea {
+  position: relative;
+    top: -15%;
+  display: flex;
+  justify-content: space-around; }
+  .btnshowarea .btnshow {
+    display: inline-block;
+    padding: 8% 0;
+    width: 40%;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* games *//* games *//* games */
+.gamesarea {
+  height: 100%;
+  border: 1px solid transparent; }
+  .gamesarea .games {
+    width: 80%;
+    height: 30%;
+    margin: 10%;
+    background: #666;
+    box-shadow: 0px 0px 20px #000;
+    /*object-fit: contain;*/ }
+    .gamesarea .games > p {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      /*background: rgba(0, 0, 0, .3);*/
+      color: #fff;
+      font-size: 2.5em;
+      font-weight: 900;
+}
+
+/* emergency *//* emergency */
+.emergencyTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background: #333;
+  color: #ffc; }
+  .emergencyTitle > p {
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.emergencyContent {
+  height: 80%;
+  margin: 0 5%;
+  padding: 10px 0;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center; }
+  .emergencyContent .pBoxSection input[type="text"] {
+    width: 63%;
+    padding: 0px 5px 2px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    color: #333;
+    font-size: .8em;
+    font-weight: 700;
+    outline: none;
+    text-align: center; }
+  .emergencyContent .pBoxSection #saveTelBtn {
+    display: inline-block;
+    position: relative;
+      top: 3px;
+    width: 27%;
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700; }
+  .emergencyContent .pBoxSection .importantBtn {
+    display: inline-block;
+    width: 75%;
+    padding: 10px 0;
+    background: #c00;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700; }
+  .emergencyContent .pBoxSection .importantBtn img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
