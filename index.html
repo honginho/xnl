@@ -6,52 +6,101 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style2.css">
   <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="ppt/ppt.css">
   <script src="js/jquery.js"></script>
   <script src="js/content.js"></script>
+  <script src="js/ppt.js"></script>
+  <script src="js/function.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
   <!-- xiao nian Lang -->
-  <div class="phonecase">
-    <div id="mainPage" class="container">
-      <div class="content">
-        <div class="name">
-          王先生
+  <div id="play" style="display: none; position: fixed; bottom: 5px; left: 5px; background: rgba(255, 255, 255, .4); cursor: pointer; z-index: 9;">
+    > 未來展望 影像處理 <br>
+    > 未來展望 目標客群擴展 <br>
+    > 未來展望 ai <br>
+    > 緣起 提高老年人對於健康存摺使用率 及 做好自我健康管理 <br>
+    > 目的 1使用者：健康狀況-健康管理、用藥、回診；
+                    透過遊戲來延緩失智狀況；
+                    緊急通報
+           2  政府：資料有效運用；
+                    最新消息能幫助政府推廣活動
+           3  廠商：宣傳＆行銷
+           4  家屬：隨時掌握使用者行蹤，確保安全
+  </div>
+
+  <div id="phone">
+    <div class="phonecase">
+      <div id="sound"></div>
+      <div id="mainPage" class="container">
+        <div class="content">
+          <div class="name">
+            王阿公
+          </div>
+          <div class="setting">
+            <img src="img/setting.png" alt="setting" id="pSetting">
+          </div>
+          <div class="detail">
+            <ul>
+              <li>血糖：90 / 血脂：220</li>
+              <li>吃藥時間：1次/天，飯後藥</li>
+              <li>下次看診時間：12/11(一)</li>
+            </ul>
+          </div>
         </div>
-        <div class="setting">
-          <img src="img/setting.png" alt="setting" id="pSetting">
-        </div>
-        <div class="detail">
-          <ul>
-            <li> 血糖：200mg/dl </li>
-            <li> 吃藥時間：01:30 p.m. </li>
-            <li> 重要資訊：你沒救了 </li>
-          </ul>
+        <div class="btnarea">
+          <div id="pHealth" class="mainbtn">
+            <img src="img/healthm.png" alt="healthm">
+            <p> 健康管理 </p>
+          </div>
+          <div id="pNews" class="mainbtn">
+            <img src="img/news.png" alt="news">
+            <p> 最新消息 </p>
+          </div>
+          <div id="pGps" class="mainbtn">
+              <img src="img/gps.png" alt="gps">
+              <p> GPS定位 </p>
+          </div>
+          <div id="pGames" class="mainbtn">
+              <img src="img/games.png" alt="games">
+              <p> 遊戲 </p>
+          </div>
+          <div id="pEmergency" class="mainbtnLast">
+              <img src="img/emergency.png" alt="emergency">
+              <div> 緊急通報 </div>
+          </div>
         </div>
       </div>
-      <div class="btnarea">
-        <div id="pHealth" class="mainbtn">
-          <img src="img/healthm.png" alt="healthm">
-          <p> 健康管理 </p>
-        </div>
-        <div id="pNews" class="mainbtn">
-          <img src="img/news.png" alt="news">
-          <p> 最新消息 </p>
-        </div>
-        <div id="pGps" class="mainbtn">
-            <img src="img/gps.png" alt="gps">
-            <p> GPS定位 </p>
-        </div>
-        <div id="pGames" class="mainbtn">
-            <img src="img/games.png" alt="games">
-            <p> 遊戲 </p>
-        </div>
-        <div id="pEmergency" class="mainbtnLast">
-            <img src="img/emergency.png" alt="emergency">
-            <div> 緊急通報 </div>
-        </div>
-      </div>
+      <div id="homebtn"></div>
     </div>
+  </div>
+
+  <div id="tableLa">
+    <div id="start" class="tablec">
+      <p> 產品緣起 </p>
+    </div>
+    <div id="goods" class="tablec">
+      <p> 目的與效益 </p>
+    </div>
+    <div id="target" class="tablec">
+      <p> 目標客群 </p>
+    </div>
+    <div id="prointro" class="tablec">
+      <p> 產品介紹 </p>
+    </div>
+    <div id="future" class="tablec">
+      <p> 未來展望 </p>
+    </div>
+    <div class="tablec">
+      <p> // 測試測試 </p>
+    </div>
+  </div>
+
+  <div id="targetc" class="pptContent" style="display: none; opacity: 0;">
+    <div id="ppt4Start" style="display: none;"></div>
+    <div id="ppt4Goods" style="display: none;"></div>
+    <div id="ppt4Target" style="display: none;"></div>
   </div>
 </body>
 </html>

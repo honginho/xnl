@@ -112,10 +112,12 @@
 }
 
 .newsarea {
-  height: 65%;
+  height: 60%;
   background: #333;
   overflow: auto; }
 .newsarea::-webkit-scrollbar {
+    display: none; }
+.newsarea::scrollbar {
     display: none; }
   .newsarea .newsbox {
     width: 90%;

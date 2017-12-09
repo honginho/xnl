@@ -3,16 +3,16 @@ var content = {
     pIndex: `
       <div class="content">
         <div class="name">
-          王先生
+          王阿公
         </div>
         <div class="setting">
           <img src="img/setting.png" alt="setting" id="pSetting">
         </div>
         <div class="detail">
           <ul>
-            <li> 血糖：200mg/dl </li>
-            <li> 吃藥時間：01:30 p.m. </li>
-            <li> 重要資訊：你沒救了 </li>
+            <li>血糖：90 / 血脂：220</li>
+            <li>吃藥時間：1次/天，飯後藥</li>
+            <li>下次看診時間：12/11(一)</li>
           </ul>
         </div>
       </div>
@@ -173,7 +173,7 @@ var content = {
           <label id="isSave">
             已儲存電話
           </label>
-          <input type="text" name="isSave" placeholder="尚未設定" disabled="disabled">
+          <input type="text" name="isSave" placeholder="0987654321" disabled="disabled">
         </div>
         <div class="pBoxSection">
           <div class="importantBtn">
@@ -251,5 +251,4 @@ var content = {
         </div>
       </div>`
   }
-};
-
+}

@@ -58,4 +58,9 @@ $(document).ready(function(){
     $("#p4Heart").hide();
     $("#p4Heart").empty();
   });
+/*
+  $("body").keydown(function () {
+    $(".aaa")[0].click();
+  });
+*/
 });

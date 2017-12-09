@@ -1,0 +1,6 @@
+/* animate */
+@keyframes move
+{
+  from {left:-35%;}
+  to {left:0;}
+}
